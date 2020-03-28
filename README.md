@@ -20,6 +20,8 @@ git clone https://github.com/TeamTimpson/TeamTimpson.github.io.git
   c. If you don't already have git installed <b>b</b> wont work and you'll be prompted to install - follow the instructions
   
 ### 2.  Edit the `html` file
+**Before making any edits always pull the latest version of the repository using `git pull`**
+
   a. The repository will have an `R` project called `TeamTimpson.github.io.Rproj`. Open this and `R Studio` will load
   
   b. Open the `index.html` file in your now open `R Studio` session
