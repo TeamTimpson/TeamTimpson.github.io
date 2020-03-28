@@ -1,4 +1,5 @@
 @import url(fontawesome-all.min.css);
+@import url("//use.fontawesome.com/releases/v5.6.1/css/all.css'");
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:400,600,400italic,600italic|Roboto+Slab:400,700");
 /*
 	Editorial by HTML5 UP
@@ -1210,6 +1211,22 @@ input[type="radio"] + label:before {
   .icon.brands:before {
     font-family: 'Font Awesome 5 Brands'; }
 
+a.ai {
+  -moz-transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
+  -webkit-transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
+  -ms-transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
+  transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
+  border-bottom: none 1px;
+  color: inherit;
+  text-decoration: none; }
+  a:hover {
+    border-bottom-color: #f56a6a;
+    color: #f56a6a !important; }
+    a:hover strong {
+      color: inherit; }
+    
+
+
 /* Image */
 .image {
   border-radius: 0.375em;
@@ -2177,13 +2194,13 @@ button,
         -ms-flex-shrink: 0;
         flex-shrink: 0;
         margin: 0 0 4em 0;
-        height: 100%;
-        max-height: 50vh;
+        height: 25em;
+        max-height: 500vh;
         min-height: 18em;
-        width: 50%; } }
+        width: 100%; } }
   @media screen and (orientation: portrait) and (max-width: 480px) {
     #banner .image {
-      max-height: 35vh; } }
+      max-height: 350vh; } }
 
 /* Footer */
 #footer .copyright {
@@ -2271,54 +2288,3 @@ button,
     border-top: 0;
     margin-top: 0;
     padding-top: 0; }
-    
-    
-    
-    
-    
-/* People section */
-html {
-  box-sizing: border-box;
-}
-
-*, *:before, *:after {
-  box-sizing: inherit;
-}
-
-.column {
-  float: left;
-  width: 20%;
-  margin-bottom: 16px;
-  padding: 0 8px;
-}
-
-
-
-.about-section {
-  padding: 50px;
-  text-align: center;
-  background-color: #474e5d;
-  color: white;
-}
-
-.container {
-  padding: 0 16px;
-}
-
-.container::after, .row::after {
-  content: "";
-  clear: both;
-  display: table;
-}
-
-.title {
-  color: grey;
-}
-
-
-@media screen and (max-width: 650px) {
-  .column {
-    width: 100%;
-    display: block;
-  }
-}
