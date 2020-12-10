@@ -83,15 +83,15 @@ git clone https://github.com/TeamTimpson/TeamTimpson.github.io.git
       3. Change the `href=""` in the `<img>` `</img>` tag to the website of the publication
 
 ### 3. Commit and push to Git so the changes are live
-      1. First you need to add yoru changes so Git knows you want to do something with them
+  a. First you need to add your changes so Git knows you want to do something with them
 ```
 git add people.html
 ```
-      2. Next you need to commit those changes and say what you've done
+  b. Next you need to commit those changes and say what you've done
 ```
 git commite -m 'Added a new profile for ABC'
 ```
-      3. Finally you push your committed changes to Git and it will go live on the published site
+  c. Finally you push your committed changes to Git and it will go live on the published site
 ```
 git push
 ```
