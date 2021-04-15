@@ -81,7 +81,20 @@ git clone https://github.com/TeamTimpson/TeamTimpson.github.io.git
       2. Change the `src="images/papers/Lawson_structure.jpg"` in the `<img>` `</img>` tag to your images name
           
       3. Change the `href=""` in the `<img>` `</img>` tag to the website of the publication
-      
+
+### 3. Commit and push to Git so the changes are live
+  a. First you need to add your changes so Git knows you want to do something with them
+```
+git add people.html
+```
+  b. Next you need to commit those changes and say what you've done
+```
+git commite -m 'Added a new profile for ABC'
+```
+  c. Finally you push your committed changes to Git and it will go live on the published site
+```
+git push
+```
 
 ## Helpful HTML commands
 `HTML` is very similar to `markdown` and `Rmarkdown`. `HTML` is written using tags. These follow the premise of an open and a close. You open the tag, for example to make words strong you use the tag `<strong>`. You would open the command with `<strong>` and then you would close the tag using a `/` - `</strong>`. You can see this in action `<strong>`<strong>here</strong>`</strong>`. `<strong>`<strong>If you forget to close the tag everything after the open tag will have the tag applied</strong>. The following are some useful tags and example uses.
