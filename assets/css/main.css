@@ -24,6 +24,13 @@ section, summary, time, mark, audio, video {
   font: inherit;
   vertical-align: baseline; }
 
+.scrollable-news {
+  max-height: 300px; /* Adjust based on your design */
+  overflow-y: auto;
+  padding-right: 15px; /* To prevent content from being cut off when scrollbar appears */
+
+}
+
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
   display: block; }
@@ -1598,6 +1605,11 @@ button,
     opacity: 0.25; }
 
 /* Mini Posts */
+.mini-posts {
+  max-height: 500px; /* You can adjust this value based on your preference */
+  overflow-y: auto; /* This will add a vertical scrollbar if the content exceeds the max-height */
+  padding-right: 15px; /* To ensure the scrollbar doesn't overlap the content */
+}
 .mini-posts article {
   border-top: solid 1px rgba(210, 215, 217, 0.75);
   margin-top: 2em;
